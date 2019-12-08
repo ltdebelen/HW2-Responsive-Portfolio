@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/bg.png);
+}
+
+/* CUSTOM CLASSES */
+.bg-teal {
+    background-color: #4aaaa5;
+}
+
+/* HEADER */
+header {
+    border-bottom: 2px solid #cccccc;
+}
+
+header .navbar-nav {
+    flex-direction: row;
+}
+
+header #navbar-branding {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 767px) {
+    
+    header .navbar {
+        padding: 0; 
+    }
+
+    header .navbar-nav {
+        flex-direction: row;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    header #navbar-branding
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        margin: 0;
+    }
+}
