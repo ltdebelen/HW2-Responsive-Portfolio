@@ -40,6 +40,18 @@ header #navbar-branding {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* CONTACT */
+
+#contact h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#contact #message {
+    resize: none;
+}
+
 footer {
     border-top: 8px solid #4aaaa5;
 }
