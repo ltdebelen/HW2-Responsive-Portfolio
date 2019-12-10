@@ -128,10 +128,24 @@ footer {
 
 /* MEDIA QUERIES */
 @media(max-width: 640px) {
+    #about-me h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
     #about-me img {
         float: none !important;
         display: block; 
         margin: 0 auto !important;
+        margin-bottom: 100px;
+    }
+
+    #about-me p {
+        padding-top: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
     }
 }
 
