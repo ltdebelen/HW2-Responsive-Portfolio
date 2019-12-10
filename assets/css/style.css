@@ -1,219 +1,215 @@
 body {
-    background-image: url(../images/bg.png);
+  background-image: url(../images/bg.png);
 }
 
 /* CUSTOM CLASSES */
 .bg-teal {
-    background-color: #4aaaa5;
+  background-color: #4aaaa5;
 }
 
 /* HEADER */
 header {
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 3rem;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 3rem;
 }
 
 header .navbar-nav {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 header #navbar-branding {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 20px;
-    color: #ffffff;
-    font-weight: bold;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /* ABOUT ME */
 #about-me h2 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
+  color: #4aaaa5;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 #about-me img {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 #about-me p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* CONTACT */
 
 #contact h2 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
+  color: #4aaaa5;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 #contact #message {
-    resize: none;
+  resize: none;
 }
 
 /* Portfolio */
 
 #portfolio h2 {
-    color: #4aaaa5;
-    font-weight: bold;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 #portfolio .boxes {
-    margin: 20px 0;
-    overflow: auto;
+  margin: 20px 0;
+  overflow: auto;
 }
 
 #portfolio .boxes p {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    background-color: #4aaaa5;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    position: absolute;
-    top: 70%;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  background-color: #4aaaa5;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 70%;
 }
 
 #portfolio .boxes a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #portfolio .boxes #box1 {
-    background: url('../images/p1.jpg');
-    background-position: center;
-    position: relative;
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin-right: 40px;
+  background: url("../images/p1.jpg");
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 40px;
 }
 
 #portfolio .boxes #box2 {
-    background: url('../images/p2.jpg');
-    background-position: center;
-    position: relative;
-    height: 200px;
-    width: 200px;
-    float: left;
+  background: url("../images/p2.jpg");
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: left;
 }
 
 #portfolio .boxes #box3 {
-    background: url('../images/p3.jpg');
-    background-position: center;
-    position: relative;
-    height: 200px;
-    width: 200px;
-    float: left;
-    clear: left;
-    margin-top: 20px;
+  background: url("../images/p3.jpg");
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: left;
+  clear: left;
+  margin-top: 20px;
 }
 
 #portfolio .boxes #box4 {
-    background: url('../images/p4.jpg');
-    background-position: center;
-    position: relative;
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 40px;
+  background: url("../images/p4.jpg");
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 footer {
-    border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #4aaaa5;
 }
 
 /* MEDIA QUERIES */
-@media(max-width: 640px) {
-    /* About Me */
-    
-    #about-me h2 {
-        font-size: 1.6rem;
-        text-align: center;
-    }
+@media (max-width: 640px) {
+  /* About Me */
 
-    #about-me img {
-        float: none !important;
-        display: block; 
-        margin: 0 auto !important;
-        margin-bottom: 100px;
-    }
+  #about-me h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 
-    #about-me p {
-        padding-top: 1rem;
-    }
+  #about-me img {
+    float: none !important;
+    display: block;
+    margin: 0 auto !important;
+    margin-bottom: 100px;
+  }
 
-    /* Contact */
-    #contact h2 {
-        font-size: 1.6rem;
-        text-align: center;
-    }
+  #about-me p {
+    padding-top: 1rem;
+  }
 
-    /* Portfolio */
-    #portfolio {
-        margin-bottom: 100px;
-    }
+  /* Contact */
+  #contact h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 
-    #portfolio h2 {
-        font-size: 1.6rem;
-        text-align: center;
-    }
+  /* Portfolio */
+  #portfolio {
+    margin-bottom: 100px;
+  }
 
-    #portfolio .boxes #box1 {
-        width: 75%;
-        float: none;
-        margin: 0 auto;
-    }
+  #portfolio h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 
-    #portfolio .boxes #box2 {
-        width: 75%;
-        float: none;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
+  #portfolio .boxes #box1 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+  }
 
-    #portfolio .boxes #box3 {
-        width: 75%;
-        float: none;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
+  #portfolio .boxes #box2 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 
-    #portfolio .boxes #box4 {
-        width: 75%;
-        float: none;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
+  #portfolio .boxes #box3 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 
+  #portfolio .boxes #box4 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 
-    footer {
-        font-size: 0.9rem;
-    }
+  footer {
+    font-size: 0.9rem;
+  }
 }
 
-@media(max-width: 767px) {
-    
-    header .navbar {
-        padding: 0; 
-    }
+@media (max-width: 767px) {
+  header .navbar {
+    padding: 0;
+  }
 
-    header .navbar-nav {
-        flex-direction: row;
-        text-align: center;
-        margin: 0 auto;
-    }
+  header .navbar-nav {
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-    header #navbar-branding
-    {
-        float: none;
-        text-align: center;
-        width: 100%;
-        font-size: 1rem;
-        margin: 0;
-    }
+  header #navbar-branding {
+    float: none;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+  }
 }
-
